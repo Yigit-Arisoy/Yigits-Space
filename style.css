@@ -3,12 +3,16 @@ body {
   font-family: Montserrat;
   font-weight: bolder;
   color: #161925;
+  background-color: #D5F4FB;
   margin: 0;
 }
 
 h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 4vw;
+}
+h1:hover{
+  color: #00bd9d;
 }
 
 h2 {
@@ -22,7 +26,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1vw;
+  font-size: 1vw;
   margin-bottom: 50px;
 }
 
@@ -30,15 +34,20 @@ a{
   font-size: 1.2vw;
 }
 
+.navbar_font{
+
+}
+
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border-style:ridge;
   border-bottom: none;
   width: 10%;
+  margin: 30px auto 30px auto;
 }
 
 .top-container {
-  background-color: #D5F4FB;
+  background-image: linear-gradient(#faf9f9,#D5F4FB, #D5F4FB, #D5F4FB, #fffbfa);
 }
 
 .middle-container {
@@ -48,9 +57,11 @@ hr {
 }
 
 .bottom-container {
-  margin: 0;
-  padding-bottom: 1px;
-  background-color: #C5E9E6;
+  margin: 50;
+  padding: 40px 0 40px 0;
+  background-color: #D5F4FB;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .skill-row {
@@ -70,9 +81,13 @@ hr {
 .contact-me {
   width: 100%;
   margin: 0 0 0 0;
-  padding-top: 10px;
+  padding-top: 100px;
   padding-bottom: 50px;
-  background-color: #C5E9E6;
+  background-image: linear-gradient(#fffbfa,#D5F4FB, #D5F4FB, #D5F4FB,#D5F4FB);
+}
+
+.profile-pic{
+  margin-bottom: 40px;
 }
 
 .bottom-cloud {
@@ -92,7 +107,7 @@ hr {
 
 .game-dev-image {
   float: right;
-  width: 120px;
+  width: 130px;
   margin-left: 30px;
 }
 
@@ -126,4 +141,9 @@ hr {
   background-image: -o-linear-gradient(top, #39d4d4, #3498db);
   background-image: linear-gradient(to bottom, #39d4d4, #3498db);
   text-decoration: none;
+}
+
+.box {
+  background-color: #F2F2F2;
+  width: 200px;
 }
