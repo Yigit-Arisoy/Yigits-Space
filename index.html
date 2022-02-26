@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yigit Arisoy</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,22 +17,22 @@
     0
   </script>
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #faf9f9;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Yiğit Arısoy</a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Bio</a>
-          <a class="nav-link" href="#">Work</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link" href="#">JS Stuff</a>
-        </div>
-      </div>
-    </div>
+  <nav class="navbar">
+
+    <h3 id="brand">Yiğit Arısoy</h3>
+
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Bio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">JS Stuff</a></li>
+
+    </ul>
   </nav>
 
-  <div class="top-container">
+
+  <div class="header">
     <img class="top-cloud" src="images/cloud.png" alt="">
     <h1>I'm Yigit</h1>
     <p>a programmer</p>
@@ -39,7 +40,9 @@
     <img class="mountain" src="images/mountain.png" alt="">
   </div>
 
-  <div class="middle-container">
+
+
+  <div class="main">
     <div class="profile">
       <img class="profile-pic" src="images/profilePicture.png" alt="">
       <h2>Hello!</h2>
@@ -59,29 +62,45 @@
         <p>Ever since I was a little boy I was fascinated with video games. Now I have the joy of creating them. I design and program mobile games in Unity.</p>
       </div>
     </div>
-    <hr>
 
     <h3>Graduation Status</h3>
     <h3> Loading... </h3>
-    <div class="spinner-border text-info"></div>
+
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+
+    <hr>
 
   </div>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
+
+
+
+  <div class="footer">
+    <h2 id="get-in-touch">Get In Touch</h2>
     <h3>Wanna trade burger recipes?</h3>
     <p>You can send me an e-mail or contact me on my social media.</p>
-    <a class="btn" href="mailto:arisoy.yigit@gmail.com">CONTACT ME</a>
+
+    <div class="btn-container">
+      <a class="btn" href="mailto:arisoy.yigit@gmail.com">CONTACT ME</a>
+    </div>
+
+    <div class="socials">
+      <a class="footer-link" href="https://www.linkedin.com/in/yigit-arisoy/"><img src="images/linkedin.png"></a>
+      <a class="footer-link" href="https://github.com/Yigit-Arisoy"><img src="images/github.png"></a>
+      <a class="footer-link" href="https://www.instagram.com/yigit_arsy/"><img src="images/instagram.png"></a>
+    </div>
+
+    <p>© Yiğit Arısoy 2022</p>
+
   </div>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/yigit-arisoy/"><img src="images/linkedin.png"></a>
-    <a class="footer-link" href="https://github.com/Yigit-Arisoy"><img src="images/github.png"></a>
-    <a class="footer-link" href="https://www.instagram.com/yigit_arsy/"><img src="images/instagram.png"></a>
-  </div>
 
 
 
-  <p>© Yiğit Arısoy 2022</p>
 
 
 
